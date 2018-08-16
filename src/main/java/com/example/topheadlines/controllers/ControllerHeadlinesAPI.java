@@ -1,8 +1,9 @@
 package com.example.topheadlines.controllers;
 
-import com.example.topheadlines.model.AllSources;
-import com.example.topheadlines.model.Headline;
+import com.example.topheadlines.dto.AllSourcesDTO;
+import com.example.topheadlines.dto.HeadlineDTO;
 import com.example.topheadlines.services.RestHeadlineService;
+import com.example.topheadlines.services.RestHeadlineServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -17,17 +18,17 @@ public class ControllerHeadlinesAPI {
     private final RestHeadlineService service;
 
     @Autowired
-    public ControllerHeadlinesAPI(RestHeadlineService service) {
+    public ControllerHeadlinesAPI(RestHeadlineServiceImpl service) {
         this.service = service;
     }
 
     @GetMapping(value = "/{country}/{category}/", produces = "application/json")
-    public Headline getHeadlines(@PathVariable String country, @PathVariable String category) {
+    public HeadlineDTO getHeadlines(@PathVariable String country, @PathVariable String category) {
         return service.getHeadlineService(country,category);
     }
 
     @GetMapping("/sources")
-    public AllSources getAllSources(){
+    public AllSourcesDTO getAllSources(){
         return service.getAllSourcesService();
     }
 }
