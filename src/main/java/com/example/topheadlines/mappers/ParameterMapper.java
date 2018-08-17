@@ -14,7 +14,7 @@ public class ParameterMapper {
         return parameterDTO;
     }
 
-    private static ArrayList<ParameterDTO> map(ArrayList<Parameter> parameters){
+    public static ArrayList<ParameterDTO> map(ArrayList<Parameter> parameters){
         ArrayList<ParameterDTO> parametersDTO = new ArrayList<>();
         for(Parameter parameter : parameters){
             parametersDTO.add(map(parameter));

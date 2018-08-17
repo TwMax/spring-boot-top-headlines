@@ -7,7 +7,7 @@ import java.util.ArrayList;
 
 public class ArticleMapper {
 
-    private static ArticleDTO map(Article article) {
+    public static ArticleDTO map(Article article) {
         return ArticleDTO.builder()
         .articleUrl(article.getUrl())
         .author(article.getAuthor())
