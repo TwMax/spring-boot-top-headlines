@@ -23,13 +23,16 @@ import static org.springframework.test.web.servlet.setup.MockMvcBuilders.webAppC
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class HeadlineAPIControllerTest {
+
     private MockMvc mockMvc;
 
     @Autowired
     private WebApplicationContext context;
+
     private RestTemplate restTemplate;
     private static final String COUNTRY = "pl";
     private static final String CATEGORY = "technology";
+
     @Before
     public void setup() throws Exception {
         mockMvc = webAppContextSetup(context).build();

@@ -12,13 +12,13 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping(value = "/news")
-public class ControllerHeadlinesAPI {
+public class APIControllerHeadlines {
 
     //define a service constant
     private final RestHeadlineService service;
 
     @Autowired
-    public ControllerHeadlinesAPI(RestHeadlineServiceImpl service) {
+    public APIControllerHeadlines(RestHeadlineServiceImpl service) {
         this.service = service;
     }
 

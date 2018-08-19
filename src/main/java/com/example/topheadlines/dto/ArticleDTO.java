@@ -8,7 +8,6 @@ import java.io.Serializable;
 import java.time.LocalDate;
 
 @Getter
-@Setter
 @Builder
 public class ArticleDTO implements Serializable {
     private String author;

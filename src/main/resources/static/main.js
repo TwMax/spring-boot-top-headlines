@@ -1,24 +1,19 @@
-$(document).ready(function(){
-    $('.eBtn').on('click',function(event){
-        event.preventDefault();
-        var href=$(this).attr('href');
-        var text=$(this).text();
-            $.get(href, function(article){
-                $('.myForm #author').val(article.author);
-                $('.myForm #title').val(article.title);
-                $('.myForm #description').val(article.description);
-                $('.myForm #sourceName').val(article.sourceName);
-                $('.myForm #date').val(article.date);
-                $('.myForm #articleUrl').val(article.articleUrl);
-                $('.myForm #imageUrl').val(article.imageUrl);
-            })
-            $('.myForm #exampleModal').modal();
-    });
-
-    $('.sBtn').on('click',function(event){
-        var country = $("#country" ).val();
-        var category = $("#category" ).val();
-        $(this).attr('href', "http://localhost:8080/?country="+country+"&category="+category);
-    })
-
- })
+function openHeadlineModal(counter){
+  			$.ajax({
+   				url: "/headline/" + counter,
+   				success: function(data){
+   					$("#headlineModalHolder").html(data);
+   					$('#headlineModal').modal({
+                       	backdrop: 'static'
+                   	});
+   				}
+   			});
+   		}
+function searchHeadline(co,ca){
+            var co = document.getElementById("country");
+            var strCountry = co.options[co.selectedIndex].text;
+            var ca = document.getElementById("category");
+            var strCategory = ca.options[ca.selectedIndex].text;
+            var url = "http://localhost:8080/?country="+strCountry+"&category="+strCategory;
+              window.open(url,'_self');
+   		}
