@@ -7,31 +7,29 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.servlet.MockMvc;
-import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 import org.springframework.web.context.WebApplicationContext;
-
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
-import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.model;
-import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
-import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.view;
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
+import static org.springframework.test.web.servlet.setup.MockMvcBuilders.webAppContextSetup;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class HeadlineControllerTest {
 
     @Autowired
-    private WebApplicationContext wac;
+    private WebApplicationContext context;
 
     private MockMvc mockMvc;
 
     @Before
     public void setUp() throws Exception {
-        this.mockMvc = MockMvcBuilders.webAppContextSetup(this.wac).build();
+        mockMvc = webAppContextSetup(context).build();
     }
 
     @Test
     public void getArticleList() throws Exception {
-        this.mockMvc.perform(get("/"))
+        mockMvc
+                .perform(get("/"))
                 .andExpect(status().isOk())
                 .andExpect(model().attributeExists("countries"))
                 .andExpect(model().attributeExists("categories"))
@@ -40,7 +38,8 @@ public class HeadlineControllerTest {
 
     @Test
     public void getHeadline() throws Exception {
-        this.mockMvc.perform(get("/headline/1"))
+        mockMvc
+                .perform(get("/headline/1"))
                 .andExpect(status().isOk())
                 .andExpect(model().attributeExists("headline"))
                 .andExpect(view().name("modal/headline :: headlineContents"));

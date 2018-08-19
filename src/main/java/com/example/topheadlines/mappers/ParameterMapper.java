@@ -7,7 +7,7 @@ import java.util.ArrayList;
 
 public class ParameterMapper {
 
-    private static ParameterDTO map(Parameter parameter){
+    public static ParameterDTO map(Parameter parameter){
         ParameterDTO parameterDTO = new ParameterDTO();
         parameterDTO.setCategory(parameter.getCategory());
         parameterDTO.setCountry(parameter.getCountry());

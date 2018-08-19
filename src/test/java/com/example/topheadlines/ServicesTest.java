@@ -1,6 +1,5 @@
 package com.example.topheadlines;
 
-import com.example.topheadlines.dto.HeadlineDTO;
 import com.example.topheadlines.model.Headline;
 import com.example.topheadlines.services.RestHeadlineServiceImpl;
 import org.junit.Test;
@@ -34,11 +33,10 @@ public class ServicesTest {
 
         Mockito.lenient().when(restTemplate.getForObject(
                 Mockito.anyString(),
-                eq(Headline.class)
-        ))
+                eq(Headline.class)))
                 .thenReturn(null);
-        HeadlineDTO result = service.getHeadlineService("pl","Technology");
-        assertThat(result, is(nullValue()));
+
+        assertThat(service.getHeadlineService("pl","Technology"), is(nullValue()));
     }
 
 }
