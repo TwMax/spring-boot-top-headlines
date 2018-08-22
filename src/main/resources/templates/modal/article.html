@@ -1,0 +1,29 @@
+<div id="headlineModal" class="modal fade" role="dialog"
+     th:fragment="articleContents" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header bg-primary">
+                <h4 class="modal-title font-weight-bold">HeadLine Details</h4>
+            </div>
+            <div class="modal-body">
+                <div class="media">
+                    <div class="media-left">
+                        <span style="font-size: 55px" class="glyphicon glyphicon-user"></span>
+                    </div>
+                    <div class="media-body">
+                        <span style="font-weight:bold">Author: </span><span th:text="${article.author}"></span><br>
+                        <span style="font-weight:bold">Title: </span><span th:text="${article.title}"></span><br>
+                        <span style="font-weight:bold">Description: </span><span th:text="${article.description}"></span><br>
+                        <span style="font-weight:bold">Source name: </span><span th:text="${article.sourceName}"></span><br>
+                        <span style="font-weight:bold">Date: </span><span th:text="${#temporals.format(article.date, 'yyyy-MM-dd')}"></span><br>
+                        <span style="font-weight:bold">Article url: </span><span th:text="${article.articleUrl}"></span><br>
+                        <span style="font-weight:bold">Image url: </span><span th:text="${article.imageUrl}"></span><br>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button"  class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>

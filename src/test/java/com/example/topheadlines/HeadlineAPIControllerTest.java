@@ -10,8 +10,8 @@ import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import org.springframework.web.context.WebApplicationContext;
 
-import static com.example.topheadlines.consts.Consts.CATEGORY;
-import static com.example.topheadlines.consts.Consts.COUNTRY;
+import static com.example.topheadlines.constants.Constants.CATEGORY;
+import static com.example.topheadlines.constants.Constants.COUNTRY;
 import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;

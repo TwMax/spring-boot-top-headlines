@@ -23,7 +23,8 @@ public class APIControllerHeadlines {
     }
 
     @GetMapping(value = "/{country}/{category}/", produces = "application/json")
-    public HeadlineDTO getHeadlines(@PathVariable String country, @PathVariable String category) {
+    public HeadlineDTO getHeadlines(@PathVariable String country,
+                                    @PathVariable String category) {
         return service.getHeadlineService(country,category);
     }
 

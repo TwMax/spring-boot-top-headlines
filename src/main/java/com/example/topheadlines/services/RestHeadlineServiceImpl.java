@@ -16,7 +16,7 @@ import org.springframework.web.client.RestTemplate;
 import java.util.*;
 import java.util.stream.Collectors;
 
-import static com.example.topheadlines.consts.Consts.*;
+import static com.example.topheadlines.constants.Constants.*;
 
 @Service
 public class RestHeadlineServiceImpl implements RestHeadlineService {
@@ -33,9 +33,7 @@ public class RestHeadlineServiceImpl implements RestHeadlineService {
     public HeadlineDTO getHeadlineService(String country, String category){
         Headline result = restTemplate.getForObject(URL + "country=" + country + "&category=" + category +"&apiKey="+API_KEY, Headline.class);
         if (result != null) {
-            result.setCategory(category);
-            result.setCountry(country);
-            return HeadlineMapper.map(result);
+            return HeadlineMapper.map(result,country,category);
         }
         return null;
     }
@@ -45,10 +43,12 @@ public class RestHeadlineServiceImpl implements RestHeadlineService {
         return AllSourcesMapper.map(Objects.requireNonNull(restTemplate.getForObject(URL_SOURCE + "&apiKey="+API_KEY, AllSources.class)));
     }
 
+
     @Override
-    public ArrayList<ArticleDTO> getArticles(String country, String category){
-        return ArticleMapper.map(Objects.requireNonNull(restTemplate.getForObject(URL + "country=" + country + "&category=" + category + "&apiKey=" + API_KEY, Headline.class)).getArticles());
+    public ArticleDTO getArticle(String country,String category,Integer counter) {
+        return ArticleMapper.map(Objects.requireNonNull(restTemplate.getForObject(URL + "country=" + country + "&category=" + category + "&apiKey=" + API_KEY, Headline.class)).getArticles()).get(counter);
     }
+
 
     @Override
     public Set<String> getCountries(){

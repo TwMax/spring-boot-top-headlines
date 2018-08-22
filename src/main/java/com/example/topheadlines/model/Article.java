@@ -3,8 +3,6 @@ package com.example.topheadlines.model;
 import lombok.Getter;
 import lombok.Setter;
 
-import java.time.LocalDate;
-
 @Getter
 @Setter
 public class Article {
@@ -12,7 +10,7 @@ public class Article {
     private String author;
     private String title;
     private String description;
-    private LocalDate publishedAt;
+    private String publishedAt;
     private String url;
     private String urlToImage;
 }

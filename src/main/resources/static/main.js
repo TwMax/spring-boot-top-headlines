@@ -1,6 +1,7 @@
-function openHeadlineModal(counter){
+
+function openHeadlineModal(counter, country, category){
   			$.ajax({
-   				url: "/headline/" + counter,
+   				url: "/article/" + country + "/" + category + "/"+ counter,
    				success: function(data){
    					$("#headlineModalHolder").html(data);
    					$('#headlineModal').modal({
@@ -14,6 +15,6 @@ function searchHeadline(co,ca){
             var strCountry = co.options[co.selectedIndex].text;
             var ca = document.getElementById("category");
             var strCategory = ca.options[ca.selectedIndex].text;
-            var url = "http://localhost:8080/?country="+strCountry+"&category="+strCategory;
+            var url = "http://localhost:8080/"+strCountry+"/"+strCategory;
               window.open(url,'_self');
    		}

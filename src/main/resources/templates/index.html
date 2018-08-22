@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
-    <script type="text/javascript" src="webjars/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="webjars/bootstrap/4.1.1/css/bootstrap.min.css"/>
-    <script type="text/javascript" th:src="@{main.js}" src="../main.js"></script>
+    <script type="text/javascript" src="../../../webjars/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../../../webjars/bootstrap/4.1.1/css/bootstrap.min.css">
+    <script type="text/javascript" src="../../../main.js"></script>
     <title>Headlines</title>
 </head>
 
@@ -22,7 +22,6 @@
                     th:text="${co}"
                     th:selected="${headline?.country?.contains(co)}">
             </option>
-                    <!--th:selected="${headline?.country == co }"/>-->
         </select>
         <label for="category" class="col-form-label">Category:</label>
         <select type="text" class="form-control" id="category" name="category">
@@ -32,13 +31,12 @@
                     th:text="${ca}"
                     th:selected="${headline?.category?.contains(ca)}">
             </option>
-                    <!--th:selected="${headline?.category == ca}"/>-->
         </select>
         <span class="input-group-btn">
-        <!--<a href="" type="button" class="btn btn-default sBtn" id="searchBtn">search</a>-->
             <a href="#" th:onclick="'javascript:searchHeadline();'"
                class="btn btn-primary sBtn" id="searchBtn">search</a>
-        </span></div>
+        </span>
+    </div>
     <div class="headline">
         <div class="headline-block">
             <table class="table table-striped">
@@ -60,8 +58,7 @@
                         <td th:text="${art?.sourceName}">sourceName</td>
                         <td th:text="${art?.date}">date</td>
                         <td>
-                            <a href="#" th:onclick="'javascript:openHeadlineModal(\''+ ${iteration.index} + '\');'"
-                               class="btn btn-primary eBtn">Preview</a>
+                            <a href="#" th:onclick="'javascript:openHeadlineModal(\''+ ${iteration.index} + '\',\''+ ${headline.country} + '\',\''+ ${headline.category} + '\');'" class="btn btn-primary eBtn">Preview</a>
                         </td>
                     </tr>
                 </tbody>

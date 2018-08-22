@@ -34,7 +34,7 @@ public class MapperTest {
         article = new Article();
         article.setUrl("articleUrl");
         article.setAuthor("author");
-        article.setPublishedAt(LocalDate.of(2018, 8, 19));
+        article.setPublishedAt("2018-08-19T20:16:45Z");
         article.setDescription("description");
         article.setUrlToImage("imageUrl");
         Source source = new Source();
@@ -46,8 +46,6 @@ public class MapperTest {
         ArrayList<Article> articles = new ArrayList<>();
         articles.add(article);
         headline = new Headline();
-        headline.setCategory("category");
-        headline.setCountry("country");
         headline.setStatus("status");
         headline.setTotalResults(1L);
         headline.setArticles(articles);
@@ -76,7 +74,7 @@ public class MapperTest {
 
     @Test
     public void headlineMapperTest() throws Exception{
-        HeadlineDTO headlineMapDTO = HeadlineMapper.map(headline);
+        HeadlineDTO headlineMapDTO = HeadlineMapper.map(headline,"country","category");
         assertThat(headlineMapDTO.getCountry()).isEqualTo("country");
         assertThat(headlineMapDTO.getCategory()).isEqualTo("category");
         assertThat(headlineMapDTO.getArticles().get(0).getTitle()).isEqualTo("title");

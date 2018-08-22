@@ -1,0 +1,246 @@
+{
+  "status": "ok",
+  "totalResults": 20,
+  "articles": [
+    {
+      "source": {
+        "id": null,
+        "name": "Chip.pl"
+      },
+      "author": null,
+      "title": "Kolejne dwa ciekawe fińskie smartfony – Nokia 6.1 Plus i 5.1 Plus",
+      "description": null,
+      "url": "https://www.chip.pl/2018/08/kolejne-dwa-ciekawe-finskie-smartfony-nokia-6-1-plus-i-5-1-plus/",
+      "urlToImage": null,
+      "publishedAt": "2018-08-21T20:16:45Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Chip.pl"
+      },
+      "author": "Damian Kwiek",
+      "title": "Huawei Mate 20 Lite przedpremierowo w ofercie Plusa",
+      "description": "Z naszych informacji wynika, że Huawei Mate 20 Lite może zostać pokazany podczas  lub tuż przed targami IFA w Berlinie.",
+      "url": "https://www.chip.pl/2018/08/huawei-mate-20-lite-przedpremierowo-w-ofercie-plusa/",
+      "urlToImage": "https://www.chip.pl/uploads/2018/08/2uCXdC3iQDL9d1ZLx1D6IJwxsl8oBOpn.jpg",
+      "publishedAt": "2018-08-21T19:46:56Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Cdaction.pl"
+      },
+      "author": null,
+      "title": "The Grand Tour Game: Powstaje gra oparta na kultowym show [WIDEO]",
+      "description": "I ty możesz zostać Jeremym Clarksonem.",
+      "url": "https://www.cdaction.pl/news-54378/the-grand-tour-game-powstaje-gra-oparta-na-kultowym-show-wideo.html",
+      "urlToImage": null,
+      "publishedAt": "2018-08-21T19:13:51Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Spidersweb.pl"
+      },
+      "author": null,
+      "title": "Dwa tanie jak barszcz smartfony Doogee zadebiutowały w Polsce",
+      "description": "W Polsce zadebiutowały dwa nowe budżetowe telefony.Doogee X55 i Doogee X60L mogą zaintersować rodziców szukających smartfona dla dziecka.",
+      "url": "https://www.spidersweb.pl/2018/08/doogee-x55-doogee-x60l-cena.html",
+      "urlToImage": "https://ocs-pl.oktawave.com/v1/AUTH_2887234e-384a-4873-8bc5-405211db13a2/spidersweb/2018/08/smartfon-budzetowy-Doogee-X55.jpg",
+      "publishedAt": "2018-08-21T17:47:28Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Gry-online.pl"
+      },
+      "author": "Adrian Werner",
+      "title": "Devil May Cry 5 - 15 minut gameplaya z targów gamescom i data premiery",
+      "description": "Dzięki targom gamescom w sieci pojawił się piętnastominutowy zapis rozgrywki z Devil May Cry 5, czyli najnowszej części slasherowej serii firmy Capcom. Ujawniono również datę premiery gry.",
+      "url": "https://www.gry-online.pl/S013.asp?ID=110769",
+      "urlToImage": "https://www.gry-online.pl/i/h/17/443094234.jpg",
+      "publishedAt": "2018-08-21T16:07:30Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Eurogamer.pl"
+      },
+      "author": "Przemysław Wańtuchowicz",
+      "title": "FIFA 19 - trzy grywalne postacie w trybie Droga do sławy",
+      "description": "Mi&#281;dzy którymi prze&#322;&#261;czymy si&#281; w dowolnym momencie.",
+      "url": "https://www.eurogamer.pl/articles/2018-08-21-fifa-19-trzy-grywalne-postacie-w-trybie-droga-do-slawy",
+      "urlToImage": "https://cdn.gamer-network.net/2018/articles/2018-08-21-16-31/fifa-19-trzy-grywalne-postacie-w-trybie-droga-do-sawy-1534865480171.jpg/EG11/thumbnail/1200x630/format/jpg/1991554.jpg",
+      "publishedAt": "2018-08-21T15:46:55Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Gry-online.pl"
+      },
+      "author": "Adrian Werner",
+      "title": "Sekiro Shadows Die Twice na 14-minutowym gameplayu",
+      "description": "Do sieci trafił czternastominutowy zapis rozgrywki z Sekiro: Shadows Die Twice, czyli gry akcji autorstwa znanego z serii Dark Souls studia From Software.",
+      "url": "https://www.gry-online.pl/S013.asp?ID=110777",
+      "urlToImage": "https://www.gry-online.pl/i/h/17/452071375.jpg",
+      "publishedAt": "2018-08-21T15:43:53Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Gry-online.pl"
+      },
+      "author": "Adrian Werner",
+      "title": "Assassin's Creed Odyssey - nowy gameplay pokazuje starcie z Meduzą",
+      "description": "Do sieci trafiło kilkunastominutowe demo Assassin’s Creed Odyssey, pokazujące starcie z mityczną Meduzą. Firma Ubisoft wypuściła również nowy zwiastun fabularny gry.",
+      "url": "https://www.gry-online.pl/S013.asp?ID=110774",
+      "urlToImage": "https://www.gry-online.pl/i/w/h3/720_272566597.jpg",
+      "publishedAt": "2018-08-21T14:52:09Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Gram.pl"
+      },
+      "author": "Małgorzata Trzyna",
+      "title": "Zapowiedziano Desperados III - nową odsłonę taktycznej serii, która zabierze nas na Dziki Zachód",
+      "description": "Zapowiedź i zwiastun Desperados III. Desperados III ukaże się w 2019 roku na PC, PS4 i Xboksie One.",
+      "url": "https://www.gram.pl/news/2018/08/21/zapowiedziano-desperados-iii-nowa-odslone-taktycznej-serii-ktora-zabierze-nas-na-dziki-zachod.shtml",
+      "urlToImage": "https://img6.gram.pl/dash/20180821162831.jpg",
+      "publishedAt": "2018-08-21T14:28:00Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Gry-online.pl"
+      },
+      "author": "Osti",
+      "title": "Nvidia GeForce RTX 2080Ti nie uciągnie Shadow of the Tomb Raider w Full HD przy 60 FPS i włączonym RTX",
+      "description": "Nvidia zapowiada swoje nowe karty graficzne z rodziny GeForce RTX jako prawdziwą rewolucję. Wygląda jednak na to, że model RTX 2080Ti nie będzie w stanie zapewnić 60 klatek na sekundę w rozdzielczości Full HD i włączonym ray tracingu.",
+      "url": "https://www.gry-online.pl/S013.asp?ID=110772",
+      "urlToImage": "https://www.gry-online.pl/i/w/h3/720_272565352.jpg",
+      "publishedAt": "2018-08-21T14:21:43Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Spidersweb.pl"
+      },
+      "author": "https://www.facebook.com/marcin.polowianiuk",
+      "title": "Ile pamięci potrzebujemy w smartfonie? Samsungi Galaxy Note 9 512 GB sprzedają się lepiej od 128 GB",
+      "description": "Czy właśnie weszliśmy w erę, kiedy użytkownicy wolą mieć więcej pamięci w smartfonie niż w komputerze? Samsungi Galaxy Note 9 w wersji 512 GB sprzedają",
+      "url": "https://www.spidersweb.pl/2018/08/samsung-galaxy-note-9-512-gb.html",
+      "urlToImage": "https://ocs-pl.oktawave.com/v1/AUTH_2887234e-384a-4873-8bc5-405211db13a2/spidersweb/2018/08/samsung-galaxy-note-9-9-of-41.jpg",
+      "publishedAt": "2018-08-21T14:00:08Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Gry-online.pl"
+      },
+      "author": "AlexB",
+      "title": "Ace Combat 7 Skies Unknown nadleci na początku przyszłego roku",
+      "description": "Firma Bandai Namco ogłosiła datę premiery Ace Combat 7: Skies Unknown. Tytuł ukaże się 18 stycznia 2019 roku na PlayStation 4 oraz Xboksie One, natomiast 1 lutego światło dzienne ujrzy wydanie pecetowe. W sieci pojawił się również nowy zwiastun tytułu.",
+      "url": "https://www.gry-online.pl/S013.asp?ID=110770",
+      "urlToImage": "https://www.gry-online.pl/i/h/17/443079859.jpg",
+      "publishedAt": "2018-08-21T13:06:36Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Tech.wp.pl"
+      },
+      "author": "Adam Bednarek",
+      "title": "Mobilny Gmail z możliwością cofania wysłanej wiadomości",
+      "description": "Użytkownicy mobilnego Gmaila na Androidzie musieli długo czekać na opcję, która wcześniej dostępna była w przeglądarkowej wersji poczty. Teraz jednak i oni się doczekali.",
+      "url": "https://tech.wp.pl/mobilny-gmail-z-mozliwoscia-cofania-wyslanej-wiadomosci-6286761536865921a",
+      "urlToImage": "https://d.wpimg.pl/1703004123--949681583/gmail.jpg",
+      "publishedAt": "2018-08-21T12:18:53Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Gry.wp.pl"
+      },
+      "author": "Barnaba Siegel",
+      "title": "Gamescom 2018: Polski \"Cyberpunk 2077\" wgniata w ziemię. Nadchodzi arcydzieło",
+      "description": "Świat nie czeka na polskie kino, seriale czy płyty. Świat czeka na nową grę twórców \"Wiedźmina\", czyli \"Cyberpunk 2077\". Tajemnicza produkcja powstaje od 2012 roku, publicznie pokazano tylko zwiastun. WP",
+      "url": "https://gry.wp.pl/gamescom-2018-polski-cyberpunk-2077-wgniata-w-ziemie-nadchodzi-arcydzielo-6286739967809153a",
+      "urlToImage": "https://d.wpimg.pl/702586437--811230412/internet-gry-cyberpunk.jpg",
+      "publishedAt": "2018-08-21T11:12:53Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Gry-online.pl"
+      },
+      "author": "Vergil",
+      "title": "Zapowiedziano The Settlers (8) i The Settlers History Collection",
+      "description": "Na ceremonii rozpoczęcia targów gamescom 2018 pojawili się przedstawiciele studia Blue Byte, którzy zapowiedzieli ósmą odsłonę cyklu The Settlers oraz kompilację zmodernizowanych wersji siedmiu dotychczasowych części serii.",
+      "url": "https://www.gry-online.pl/S013.asp?ID=110763",
+      "urlToImage": "https://www.gry-online.pl/i/w/h3/720_272553454.jpg",
+      "publishedAt": "2018-08-21T11:03:45Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Tablety.pl"
+      },
+      "author": "Dritone",
+      "title": "Nowy rok szkolny z Xiaomi. Wybrane produkty w niższych cenach",
+      "description": "Nowy rok szkolny jest już blisko. Z tej okazji Xiaomi przygotowało specjalną ofertę dla uczniów. Przez najbliższy czas wybrane produkty będzie można zakupić w niższych cenach. Na liście są plecak Xiaomi Mi City Backpack, lampka Mi LED Desk Lamp oraz powerbank…",
+      "url": "https://www.tablety.pl/akcesoria/2018-08-21/nowy-rok-szkolny-xiaomi/",
+      "urlToImage": "https://www.tablety.pl/wp-content/uploads/2018/08/xiaomi-mi-city-backpack-p.jpg",
+      "publishedAt": "2018-08-21T10:33:24Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Gazeta.pl"
+      },
+      "author": "Marcin Kaczmarczyk",
+      "title": "CD Projekt stworzy grę na komórki. Może to będzie kolejny Wiedźmin?",
+      "description": "Najwi�kszy polski producent gier zainwestowa� w studio Spokko. Nowa sp�ka stworzy gr� lub gry na urz�dzenia mobilne opart� na jednej z marek nale��cych do CD Projekt. A wi�c by� mo�e Wied�mina.",
+      "url": "http://next.gazeta.pl/next/7,151003,23806808,cd-projekt-stworzy-gre-na-komorki-moze-to-bedzie-kolejny-wiedzmin.html",
+      "urlToImage": "http://bi.gazeta.pl/im/57/7c/16/z23579223IER,Wiedzmin-3--Dziki-Gon.jpg",
+      "publishedAt": "2018-08-21T09:24:38Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Tech.wp.pl"
+      },
+      "author": "oprac. Arkadiusz Stando",
+      "title": "Lód na biegunach Księżyca. Wielkie odkrycie naukowców z NASA",
+      "description": "Już od dawna sądzono, że w najciemniejszych i najzimniejszych strefach Księżyca - na jego biegunach, może znajdować się lód. Dzięki specjalnym instrumentom naukowym, udało się to potwierdzić. Odkrycie daje",
+      "url": "https://tech.wp.pl/lod-na-biegunach-ksiezyca-wielkie-odkrycie-naukowcow-z-nasa-6286694918104705a",
+      "urlToImage": "https://d.wpimg.pl/391921548-563307119/ksiezyc.jpg",
+      "publishedAt": "2018-08-21T07:57:17Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Gry-online.pl"
+      },
+      "author": "Vergil",
+      "title": "Pierwszy dłuższy gameplay z polskiego World War 3",
+      "description": "Firma The Farm 51, czyli autorzy takich produkcji jak Get Even czy Deadfall Adventures, zaprezentowała pierwszy dłuższy gameplay z World War 3. Dynamiczny materiał koncentruje się na rozwałce, jaką gracze będą uskuteczniać w wirtualnej Warszawie w trakcie mul…",
+      "url": "https://www.gry-online.pl/S013.asp?ID=110736",
+      "urlToImage": "https://www.gry-online.pl/i/w/h3/720_272486233.jpg",
+      "publishedAt": "2018-08-20T22:14:08Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Tech.wp.pl"
+      },
+      "author": "oprac. Arkadiusz Stando",
+      "title": "NASA ma nowy plan na powstrzymanie asteroidy Bennu. Wykorzystają specjalną farbę",
+      "description": "W obawie przed planetoidą Bennu naukowcy z NASA opracowują możliwe sposoby obrony Ziemi przed kosmiczną skałą o średnicy blisko 0,5 km. Ważąca 77 mld ton, może uderzyć w naszą planetę w 2135 roku. Przedstawiono",
+      "url": "https://tech.wp.pl/nasa-ma-nowy-plan-na-powstrzymanie-asteroidy-bennu-wykorzystaja-specjalna-farbe-6286328469567617a",
+      "urlToImage": "https://d.wpimg.pl/1360437852--651310576/koniec-swiata.jpg",
+      "publishedAt": "2018-08-20T07:02:09Z"
+    }
+  ]
+}

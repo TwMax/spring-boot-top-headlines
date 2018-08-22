@@ -7,5 +7,6 @@ import java.util.ArrayList;
 @Getter
 @Setter
 public class AllSources {
+    private String status;
     private ArrayList<Parameter> sources;
 }

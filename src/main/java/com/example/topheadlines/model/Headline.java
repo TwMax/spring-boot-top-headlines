@@ -10,8 +10,6 @@ import java.util.ArrayList;
 public class Headline {
     private String status;
     private Long totalResults;
-    private String country;
-    private String category;
     private ArrayList<Article> articles;
 
 }
